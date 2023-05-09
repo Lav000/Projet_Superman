@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+html{ 
+    font-size: 62.5%;
+    background-color: var(--bgcolor-body);
+}
+body{
+    font: 1.6rem "Roboto",sans-serif;
+    margin: 0;
+    color: var(--default-color);
+    background-color: var(--bgcolor-body);
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+}
+
+img{
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
+}
+h1,h2,p,ul,figure{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+/* Reset */
+
+/* theme */
+html{
+    color: black;
+    background-color: RGB(82, 160, 189);
+}
+header h1{
+    background-color: RGB(1, 90, 120);
+    text-align: center;
+    color: #fff;
+    padding-top: 0.4rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+h1,h2,h3,h4{
+    font: 2.6rem "Brush Script MT", Brush Script, cursive;
+}
+h2,h3,h4{
+    color: rgba(0,90,120,255);
+    margin: 0.7rem;
+}
+p,i{
+    font-size: x-small;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-left: 0.8rem;
+    padding-right: 0.2rem;
+    margin: 0rem;
+}
+.box{
+    width: 50%;
+    margin: auto;
+    border: 1.5px solid rgb(128, 128, 128);
+    background-color: aliceblue;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+.box img{
+    margin: 0.5rem ;
+    width: 98%;
+    
+}
+footer p{
+    text-align: center;
+    background-color: RGB(44, 62, 79);
+    color: #fff;
+    width: 49%;
+    margin: auto;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+.box li{
+    background-color: RGB(44, 62, 79);
+    color: #fff;
+    margin: 0.1rem 0.5rem;
+    padding: 0.5rem;
+    font-size: x-small;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.achat{
+    width: 50%;
+    margin: 0.5rem auto;
+    border: 1.5px solid rgb(128, 128, 128);
+    background-color: aliceblue;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
