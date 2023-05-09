@@ -48,9 +48,15 @@ header h1{
 h1,h2,h3,h4{
     font: 2.6rem "Brush Script MT", Brush Script, cursive;
 }
-h2,h3,h4{
+h2{
     color: rgba(0,90,120,255);
-    margin: 0.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+h3,h4{
+    color: rgba(0,90,120,255);
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
 }
 p,i{
     font-size: x-small;
@@ -83,19 +89,32 @@ footer p{
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
 }
+.box ul{
+    margin: 0.5rem;
+}
 .box li{
     background-color: RGB(44, 62, 79);
     color: #fff;
-    margin: 0.1rem 0.5rem;
+    margin: 0.1rem auto;
     padding: 0.5rem;
     font-size: x-small;
     font-family: sans-serif;
     font-weight: 100;
 }
 .achat{
+    text-align: center;
     width: 50%;
     margin: 0.5rem auto;
     border: 1.5px solid rgb(128, 128, 128);
     background-color: aliceblue;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+.achat p{
+    margin: 0.8rem;
+}
+.achat input{
+    margin-bottom: 0.5rem;
+}
+.box id{
+    text-align: center;
 }
