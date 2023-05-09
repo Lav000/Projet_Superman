@@ -114,6 +114,20 @@ footer p{
 }
 .achat input{
     margin-bottom: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+}
+.achat input{
+    color: #fff;
+}
+.search-btn{
+    background-color: RGB(29, 112, 169);
+}
+.remove-btn{
+    background-color: RGB(192, 57, 43);
+}
+.add-btn{
+    background-color: RGB(22, 105, 61);
 }
 .box id{
     text-align: center;
